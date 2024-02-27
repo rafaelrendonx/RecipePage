@@ -21,6 +21,13 @@ export default {
         outfit: 'Outfit',
       },
     },
+    screens: {
+      'desktop': '1440px',
+      // => @media (min-width: 640px) { ... }
+    },
+    scale: {
+      'desktop': '.9',
+    },
     plugins: [],
   }
 }
